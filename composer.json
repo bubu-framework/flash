@@ -1,0 +1,30 @@
+{
+    "name": "bubu-framework/flash",
+    "description": "Flash message (Bubu Framework)",
+    "type": "library",
+    "homepage": "https://github.com/bubu-framework/flash",
+    "require": {
+        "php": ">=7.4",
+        "bubu-framework/http": "^1.0"
+    },
+    "require-dev": {
+        "bubu-framework/http": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bubu\\Flash\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bubu\\Flash\\Tests\\" : "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "QuentinBubu",
+            "email": "QuentinBubu.dev@gmail.com"
+        }
+    ]
+}
