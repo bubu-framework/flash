@@ -1,8 +1,18 @@
 <?php
 require '../vendor/autoload.php';
 
-use Bubu\Tests\Flash\Flash;
+use Bubu\Flash\Flash;
 
 Flash::info('Test info');
+/*Flash::info('Test info');
 
-echo Flash::generate();
+Flash::alert('Test alert');
+
+Flash::valid('Test info');
+
+Flash::error('Test info');
+*/
+Flash::other('Autre', '#00AAFF', '#FFFFFF', '&#x20AC');
+
+
+echo Flash::rawGenerate();
